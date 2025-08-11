@@ -1,0 +1,7 @@
+{
+    "item": "apple",
+    "quantity": 5,
+    "price": 1.2,
+    "inStock": true,
+    "tags": ["fruit", "snack"]
+}

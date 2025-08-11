@@ -2,10 +2,11 @@
   "name": "express",
   "version": "1.0.0",
   "description": "Learning ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "node server",
-    "dev": "node --watch --env-file=.env server"
+    "dev": "nodemon server.js",
+    "dev:watch": "node --watch --env-file=.env server"
   },
   "author": "",
   "license": "ISC",
