@@ -22,15 +22,19 @@ app.use(express.json());
 
 //serve static files
 app.use('/', express.static(path.join(__dirname, '/public')));
-app.use('/subdir', express.static(path.join(__dirname, '/public')));
+// app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
 // routes
+
+// Auth routes
 app.use('/', require('./routes/root'));
-app.use('/subdir', require('./routes/subdir'));
+app.use('/auth', require('./routes/auth'));
+app.use('/register', require('./routes/register'));
+// app.use('/subdir', require('./routes/subdir'));
 app.use('/employees', require('./routes/api/employees'));
 
 app.all('*', (req, res) => {
-    res.status(404);
+    res.status(401);
     if (req.accepts('html')) {
         res.sendFile(path.join(__dirname, 'public', '404.html'));
     } else if (req.accepts('json')) {
