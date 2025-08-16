@@ -122,3 +122,12 @@
 20250811	23:28:27	ada33ca6-4a1b-49d4-a746-ef5e8fff9991	DELETE	undefined	/employees/3
 20250811	23:30:16	ba946d72-c41a-461f-87e9-3c97c7c71f48	DELETE	undefined	/employees/3
 20250811	23:30:51	07e2aeff-909a-4585-8572-d5bf922c3be6	PUT	undefined	/employees/3
+20250815	03:06:19	58bbf814-3633-4e7f-afb9-25b09bd0d334	GET	undefined	/
+20250815	03:06:20	66828ff8-7097-4fd4-b411-b9bbc991655e	GET	undefined	/css/style.css
+20250815	03:06:38	eec6010c-ccf1-4c39-a29b-e43553af21f9	GET	undefined	/employees
+20250815	03:06:55	b4a6d891-c70c-49fd-a934-576c268a1fb7	GET	undefined	/auth
+20250815	03:06:56	8c378d3e-c7ce-43fa-a426-5af47c3c8e01	GET	undefined	/css/style.css
+20250815	03:07:08	793261e1-7d0f-4937-9216-363603eb03c2	GET	undefined	/register
+20250815	03:07:08	fa6c974d-2d1e-4866-a6b7-6981e128dfe6	GET	undefined	/css/style.css
+20250815	03:07:51	d371813e-3f78-4859-9641-7de44b040039	GET	undefined	/
+20250815	03:07:51	bf33e9b8-8eff-47df-bdb0-53df97f4dd6c	GET	undefined	/css/style.css

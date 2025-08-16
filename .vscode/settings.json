@@ -12,7 +12,7 @@
   "editor.experimentalInlineEdit.backgroundColoring": true,
   "editor.colorDecorators": false,
   "postman.settings.dotenv-detection-notification-visibility": false,
-  "workbench.iconTheme": "catppuccin noctis icons",
+  "workbench.iconTheme": "symbols",
   "workbench.colorCustomizations": {
     "sideBar.background": "#000000",
     "panel.background": "#000000",
